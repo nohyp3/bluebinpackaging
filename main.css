@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    margin: 0px;
+}
+nav {
+    color: #011638;
+    background-color: #C4C4C4;
+    display: flex;
+    height: 7vh;
+}
+
+#navbar-links {
+    list-style-type: none;
+    margin-left: 750px;
+}
+
+li {
+    display: inline;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.hero-header {
+    background-color: #0D21A1;
+    height: 70vh;
+}
+
+.hero-text {
+    color: #EEF0F2;
+}
+
+span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+    font-family: rubik;
+}
+
+.leader {
+    background-color: #011638;
+    height: 20vh;
+}
+
+#leader-text {
+    color: #EEC643;
+}
