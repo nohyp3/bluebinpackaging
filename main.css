@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+p {
+    font-family: roboto slab;
+    color: white;
+}
 
 body {
     margin: 0px;
@@ -24,10 +30,22 @@ li {
 .hero-header {
     background-color: #0D21A1;
     height: 70vh;
+    display: flex;
 }
 
 .hero-text {
     color: #EEF0F2;
+    padding-top: 10%;
+    padding-left: 10%;
+    flex: 1;
+}
+
+.hero-image {
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-right: 15%;
 }
 
 span {
@@ -43,8 +61,26 @@ h1 {
 .leader {
     background-color: #011638;
     height: 20vh;
+    text-align: center;
+    padding-top: 30px;
 }
 
 #leader-text {
     color: #EEC643;
+}
+
+#body1 {
+    background-color: #011638;
+}
+
+#body1 h1{
+    color: #EEF0F2;
+    text-align: center;
+}
+
+.three-column {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 40px
 }
