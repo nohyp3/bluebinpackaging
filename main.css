@@ -71,6 +71,7 @@ h1 {
 
 #body1 {
     background-color: #011638;
+    height: 100vh;
 }
 
 #body1 h1{
@@ -83,4 +84,35 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 40px
+}
+
+#body2 {
+    background-color: #011638;
+    height: 100vh;
+}
+
+#body2 h1{
+    color: #EEF0F2;
+    text-align: center;
+}
+
+.canIRecycle-redirect {
+    float: right;
+    display: inline-block;
+}
+
+.caret {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.redirect {
+    color: #EEC643;
+    font-family: rubik;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.redirect:hover {
+    cursor: pointer;
 }
