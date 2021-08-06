@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body {
+    margin: 0px;
+}
+
 nav {
     color: #011638;
     background-color: #C4C4C4;
     display: flex;
     height: 7vh;
+    font-family: rubik;
 }
 
 #navbar-links {
