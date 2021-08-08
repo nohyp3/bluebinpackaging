@@ -4,6 +4,14 @@ body {
     margin: 0px;
 }
 
+p {
+    font-family: roboto slab;
+    margin: 30px 30px 0px 30px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
 nav {
     color: #011638;
     background-color: #C4C4C4;
@@ -26,4 +34,29 @@ li {
 h1 {
     margin: 0;
     font-family: rubik;
+}
+
+.hero-header {
+    background-color: #011638;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-heading {
+    color: #EEC643;
+    font-family: rubik;
+    font-size: 50px;
+    padding-left: 1em;
+}
+
+#about-header {
+    margin: 10px;
+}
+
+.contact {
+    display: inline;
+    margin-top: 40px;
+    margin-left: 35%;
+    
 }
