@@ -33,3 +33,25 @@ h1 {
     margin: 0;
     font-family: rubik;
 }
+
+.header {
+    height: 30vh;
+    background-color: #011638;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+table {
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 15px;
+}
+th {
+    background-color: #EEC643;
+    padding: 10px;
+}
+td {
+    text-align: center;
+    background-color:bisque
+}
