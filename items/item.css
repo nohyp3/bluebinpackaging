@@ -46,6 +46,7 @@ table {
     border: 2px solid black;
     padding: 30px;
     border-radius: 15px;
+    font-family: roboto slab;
 }
 th {
     background-color: #EEC643;
@@ -54,4 +55,7 @@ th {
 td {
     text-align: center;
     background-color:bisque
+}
+p {
+    font-family: roboto slab;
 }
