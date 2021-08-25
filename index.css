@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     font-family: roboto slab;
     color: white;
@@ -10,11 +14,14 @@ body {
     margin: 0px;
 }
 nav {
-    color: #011638;
-    background-color: #C4C4C4;
+    background-color: #2a3baa;
     display: flex;
     height: 7vh;
     font-family: rubik;
+}
+
+#site-name {
+    color:#fff;
 }
 
 #navbar-links {
@@ -122,17 +129,27 @@ h1 {
 /* styling links */ 
 a:link {
     text-decoration: none;
-    color: black;  
+    color: #fff;  
 }
 a:active {
     text-decoration: none;
 }
 a:visited {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 a:hover {
     border-radius: 5px;
-    background-color:blueviolet;
-    transition: background-color 0.5s linear;
+    text-decoration: underline;
+    transition: text-decoration 0.5s linear;
+}
+
+/* styling the chevron down */
+i {
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
