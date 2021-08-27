@@ -14,11 +14,14 @@ p {
 }
 
 nav {
-    color: #011638;
-    background-color: #C4C4C4;
+    background-color: #2a3baa;
     display: flex;
     height: 7vh;
     font-family: rubik;
+}
+
+#site-name {
+    color: #fff;
 }
 
 #navbar-links {
@@ -78,19 +81,19 @@ input {
 /* styling links */
 a:link {
     text-decoration: none;
-    color: black;  
+    color: white;  
 }
 a:active {
     text-decoration: none;
 }
 a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 a:hover {
     border-radius: 5px;
-    background-color:blueviolet;
-    transition: background-color 0.5s linear;
+    text-decoration: underline;
+    transition: text-decoration 0.5s linear;
 }
 
  #plug {
