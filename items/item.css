@@ -79,3 +79,20 @@ a:hover {
     text-decoration: underline;
     transition: text-decoration 0.5s linear;
 }
+
+#cities a{
+    color: #011638 !important;
+}
+
+#cities {
+    list-style: none;
+    padding-left: 0;
+    list-style-position:inside;
+}
+#cities li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    padding-left: 0;
+    list-style-position:inside;
+}
