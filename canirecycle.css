@@ -38,7 +38,20 @@ h1 {
     font-family: rubik;
 }
 
-.package-container {
+#search-bar {
+    background-color: black;
+    color: white;
+    width: 20em;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search {
+    text-align: center;
+    padding-bottom: 2vh;
+}
+#package-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
@@ -62,12 +75,13 @@ p {
 }
 
 /* cardboard box */
-.package-container div:nth-child(1) {
+#package-container div:nth-child(1) {
     background-image: url('/images/box.png');
 }
 /* kraft envelope */
-.package-container div:nth-child(2) {
+#package-container div:nth-child(2) {
     background-image: url('/images/kraftenvelope.jpeg');
+    
 }
 
 /* styling links */
