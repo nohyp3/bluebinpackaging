@@ -1,9 +1,7 @@
 
 var itemList = ["Boxes", "Envelopes", "Poly-Mailers"];
-var cityList= ["toronto", "vancouver", "ottawa"];
 var imageList = ["/images/box.svg", "/images/kraftenvelope.svg", "/images/polymailer.svg"];
 var currentItem = 0;
-var currentItem2 = 0;
 
 var item = document.getElementById("item");
 
