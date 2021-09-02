@@ -49,7 +49,7 @@ li {
     flex: 1;
 }
 
-.hero-image {
+#hero-image {
     width: 200px;
     height: 200px;
     margin-right: auto;
