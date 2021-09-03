@@ -25,6 +25,10 @@ nav {
     height: 200px;
 }
 
+.header-image {
+    padding-left: 10px;
+}
+
 li {
     display: inline;
     padding-right: 10px;

@@ -81,7 +81,11 @@ p {
 /* kraft envelope */
 #package-container div:nth-child(2) {
     background-image: url('/images/kraftenvelope.jpeg');
-    
+}
+/* poly mailer */ 
+#package-container div:nth-child(3) {
+    background-image: url('/images/polymailer.jpeg');
+    background-position-x: center;
 }
 
 /* styling links */
