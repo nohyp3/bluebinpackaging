@@ -87,6 +87,12 @@ p {
     background-image: url('/images/polymailer.jpeg');
     background-position-x: center;
 }
+/*envelope */
+#package-container div:nth-child(7) {
+    background-image: url('/images/envelope.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 
 /* styling links */
 a:link {
@@ -105,4 +111,7 @@ a:hover {
     text-decoration: underline;
     transition: text-decoration 0.5s linear;
 
+}
+#contact {
+    color: #2a3baa !important;
 }
