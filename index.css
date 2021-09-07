@@ -149,7 +149,7 @@ a:hover {
 }
 
 /* styling the chevron down */
-i {
+#down{
     -webkit-animation: action 1s infinite  alternate;
     animation: action 1s infinite  alternate;
 }
@@ -168,9 +168,17 @@ i {
           background-color: #0D21A1;
       }
       #navbar-links {
-        list-style-type: none;
+        list-style-type: block;
+        margin-left: 0px;
         color: black;
-        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        display: inline-block;
+        padding-right: 10px;
+        margin-bottom: 5px;
+        padding-bottom: 3px;
     }
     .hero-text {
         color: #EEF0F2;
@@ -183,6 +191,7 @@ i {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          height: 65vh;
       }
       #hero-image {
         width: 200px;
@@ -195,8 +204,34 @@ i {
           width: 100vw;
           overflow-x: hidden;
       }
-      #mobile{
+      #menu{
           display: "block";
-          color: white;
+          float: right;
       }
+      .three-column {
+          display: flex;
+          flex-direction: column;
+
+      }
+      .smimage {
+          width: 150px;
+          height: 150px;
+      }
+      #body1 {
+        background-color: #011638;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+      #body2 {
+        background-color: #011638;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
