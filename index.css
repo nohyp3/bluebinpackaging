@@ -20,6 +20,10 @@ nav {
     font-family: rubik;
 }
 
+#menu {
+    display: none;
+}
+
 #site-name {
     color:#fff;
 }
@@ -152,4 +156,47 @@ i {
 @-webkit-keyframes action {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+/*mobile responsiveness */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      nav {
+          background-color: #0D21A1;
+      }
+      #navbar-links {
+        list-style-type: none;
+        color: black;
+        display: none;
+    }
+    .hero-text {
+        color: #EEF0F2;
+        padding-top: 10%;
+        padding-left: 0%;
+        flex: 1;
+    }
+      .hero-header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      #hero-image {
+        width: 200px;
+        height: 200px;
+        margin-right: 0px;
+        margin-top: 0%;
+        padding-right: 0%;
+    }
+      body {
+          width: 100vw;
+          overflow-x: hidden;
+      }
+      #mobile{
+          display: "block";
+          color: white;
+      }
 }
