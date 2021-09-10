@@ -20,10 +20,6 @@ nav {
     font-family: rubik;
 }
 
-#menu {
-    display: none;
-}
-
 #site-name {
     color:#fff;
 }
@@ -31,6 +27,10 @@ nav {
 #navbar-links {
     list-style-type: none;
     margin-left: 750px;
+}
+
+#menu {
+    display:none;
 }
 
 li {
@@ -157,6 +157,9 @@ a:hover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
+#mobile-links {
+    display: none;
+}
 
 /*mobile responsiveness */
 @media only screen 
@@ -173,6 +176,7 @@ a:hover {
         color: black;
         display: flex;
         flex-direction: column;
+        display: none;
     }
     li {
         display: inline-block;
@@ -204,9 +208,10 @@ a:hover {
           width: 100vw;
           overflow-x: hidden;
       }
-      #menu{
-          display: "block";
-          float: right;
+      #menu{    
+          margin-left: 175px;
+          margin-top: 5px;
+          display: block !important;
       }
       .three-column {
           display: flex;
@@ -233,5 +238,13 @@ a:hover {
         text-align: center;
         display: flex;
         flex-direction: column;
+    }
+    #mobile-links {
+        display: none;
+        background-color:#011638;
+        margin: 0px;
+        padding: 0px;
+        font-family: rubik;
+        justify-content: space-evenly;
     }
 }

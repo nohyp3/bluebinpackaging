@@ -38,6 +38,10 @@ h1 {
     font-family: rubik;
 }
 
+h2 {
+    font-family: rubik;
+}
+
 #search-bar {
     background-color: black;
     color: white;
@@ -45,6 +49,7 @@ h1 {
     border: none;
     border-radius: 5px;
     padding: 5px;
+    outline: none;
 }
 
 .search {
@@ -74,6 +79,9 @@ p {
     align-items: center;
 }
 
+#mobile-links {
+    display: none;
+}
 /* cardboard box */
 #package-container div:nth-child(1) {
     background-image: url('/images/box.png');
@@ -115,3 +123,40 @@ a:hover {
 #contact {
     color: #2a3baa !important;
 }
+/* mobile responsiveness */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      #package-container {
+          display: flex;
+          flex-direction: column;
+      }
+      #search-bar {
+        background-color: black;
+        color: white;
+        width: 25em;
+        height: 3em;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    #navbar-links {
+        display: none;
+    }
+    
+    #menu{    
+        margin-left: 175px;
+        margin-top: 5px;
+        display: block !important;
+    }
+    #mobile-links {
+        display: none;
+        justify-content: space-evenly;
+        padding: 0px;
+        background-color:#011638;
+        margin: 0px;
+        font-family: rubik;
+    }
+  }
