@@ -84,6 +84,11 @@ input {
 #menu {
     display: none;
 }
+ #plug {
+     color: black;
+     font-family: rubik;
+     background-color:#EEC643;
+ }
 
 /* styling links */
 a:link {
@@ -103,9 +108,6 @@ a:hover {
     transition: text-decoration 0.5s linear;
 }
 
- #plug {
-     font-family: inter;
- }
  @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
@@ -134,9 +136,21 @@ a:hover {
         display: block !important;
     }
     #message {
-        width: 200px;
-        margin-left: 14px;
+        width: 325px;
+        margin-left: 0px;
         height: 100px;
         resize: none;
+    }
+    .contact {
+        margin-top: 40px;
+        margin-left: 10px;
+        border: 2px solid #011638;
+        margin-right: 10px;
+        padding: 30px;
+        border-radius: 15px;
+    }
+    
+    input {
+        margin: 5px;
     }
   }
