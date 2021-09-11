@@ -174,7 +174,6 @@ a:hover {
         list-style-type: block;
         margin-left: 0px;
         color: black;
-        display: flex;
         flex-direction: column;
         display: none;
     }
@@ -208,7 +207,7 @@ a:hover {
           width: 100vw;
           overflow-x: hidden;
       }
-      #menu{    
+      #menu {    
           margin-left: 175px;
           margin-top: 5px;
           display: block !important;
@@ -242,9 +241,14 @@ a:hover {
     #mobile-links {
         display: none;
         background-color:#011638;
+        height: 40px;
+        align-items: center;
         margin: 0px;
         padding: 0px;
         font-family: rubik;
         justify-content: space-evenly;
+    }
+    #menu-button {
+        text-decoration: none;
     }
 }

@@ -156,10 +156,15 @@ a:hover {
     }
     #mobile-links {
         display: none;
-        justify-content: space-evenly;
-        padding: 0px;
         background-color:#011638;
+        height: 40px;
+        align-items: center;
         margin: 0px;
+        padding: 0px;
         font-family: rubik;
+        justify-content: space-evenly;
+    }
+    #menu-button {
+        text-decoration: none;
     }
   }
