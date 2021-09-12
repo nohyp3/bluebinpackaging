@@ -100,3 +100,35 @@ a:hover {
     padding-left: 0;
     list-style-position:inside;
 }
+#mobile-links {
+    display: none;
+}
+/* mobile responsiveness */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #navbar-links {
+        display: none;
+        margin-left: 0px;
+    }
+    #mobile-links {
+        display: none;
+        background-color:#011638;
+        height: 40px;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        font-family: rubik;
+        justify-content: space-evenly;
+    }
+    #menu-button {
+        text-decoration: none;
+    }
+    #menu{    
+        margin-left: 170px;
+        margin-top: 5px;
+        display: block !important;
+    }
+  }
